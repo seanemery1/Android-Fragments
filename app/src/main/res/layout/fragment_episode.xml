@@ -17,24 +17,44 @@
             android:id="@+id/textView_epName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/textView_epName" />
+            android:gravity="center_horizontal"
+            android:text="@string/textView_epName"
+            android:textSize="30sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="8dp" />
 
         <TextView
             android:id="@+id/textView_epAirDate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/textView_epAirDate" />
+            android:gravity="center_horizontal"
+            android:text="@string/textView_epAirDate"
+            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/textView_epCharInfo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/textView_epCharInfo" />
+            android:gravity="center_horizontal"
+            android:text="@string/textView_epCharInfo"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="8dp" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerView_epCharImgs"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content" >
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="16dp" />
 
         <Button
             android:id="@+id/button_epMoreInfo"

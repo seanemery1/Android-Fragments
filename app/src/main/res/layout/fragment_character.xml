@@ -6,75 +6,92 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="16dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_height="match_parent">
 
-        <ImageView
-            android:id="@+id/imageView_charImg"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:contentDescription="@string/imageView_charImage"
-            tools:srcCompat="@tools:sample/avatars" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="16dp" />
-
-        <TextView
-            android:id="@+id/textView_charName"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/textView_charName" />
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="16dp" />
+            <ImageView
+                android:id="@+id/imageView_charImg"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:contentDescription="@string/imageView_charImage"
+                tools:srcCompat="@tools:sample/avatars" />
 
-        <TextView
-            android:id="@+id/textView_charStatus"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/textView_charStatus" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
 
-        <TextView
-            android:id="@+id/textView_charSpecies"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/textView_charSpecies" />
+            <TextView
+                android:id="@+id/textView_charName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/textView_charName"
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/textView_charGender"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/textView_charGender" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="16dp" />
 
-        <TextView
-            android:id="@+id/textView_charOrigin"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/textView_charOrigin" />
+            <TextView
+                android:id="@+id/textView_charStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/textView_charStatus"
+                android:textSize="18sp" />
 
-        <TextView
-            android:id="@+id/textView_charLocation"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/textView_charLocation" />
+            <TextView
+                android:id="@+id/textView_charSpecies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/textView_charSpecies"
+                android:textSize="18sp" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="8dp" />
+            <TextView
+                android:id="@+id/textView_charGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/textView_charGender"
+                android:textSize="18sp" />
 
-        <TextView
-            android:id="@+id/textView_charAppearances"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/textView_charAppearances" />
-    </LinearLayout>
+            <TextView
+                android:id="@+id/textView_charOrigin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/textView_charOrigin"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView_charLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/textView_charLocation"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <TextView
+                android:id="@+id/textView_charAppearances"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/textView_charAppearances"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

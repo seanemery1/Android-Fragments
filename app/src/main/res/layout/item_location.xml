@@ -17,18 +17,24 @@
             android:id="@+id/textView_locName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/textView_locName" />
+            android:text="@string/textView_locName"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView_locType"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/textView_locType" />
+            android:layout_marginLeft="16dp"
+            android:text="@string/textView_locType"
+            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/textView_locDimension"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/textView_locDimension" />
+            android:layout_marginLeft="16dp"
+            android:text="@string/textView_locDimension"
+            android:textSize="18sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

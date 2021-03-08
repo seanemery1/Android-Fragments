@@ -29,24 +29,31 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView_mainLogo" />
+
     <Button
         android:id="@+id/button_mainChar"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="2dp"
         android:layout_marginBottom="16dp"
         android:layout_weight="1"
         android:text="@string/button_mainChar"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button_mainEp"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button_mainLoc"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
         android:layout_weight="1"
         android:text="@string/button_mainLoc"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.786"
@@ -54,11 +61,14 @@
 
     <Button
         android:id="@+id/button_mainEp"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
         android:layout_marginBottom="16dp"
         android:layout_weight="1"
         android:text="@string/button_mainEp"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button_mainLoc"
         app:layout_constraintStart_toEndOf="@+id/button_mainChar" />

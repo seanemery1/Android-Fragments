@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Android Fragments</string>
+    <string name="textView_charName">Character Name</string>
+    <string name="textView_charStatus">Status: </string>
+    <string name="textView_charSpecies">Species: </string>
+    <string name="imageView_charImage">CharImage</string>
+    <string name="textView_charGender">Gender: </string>
+    <string name="textView_charOrigin">Origin: </string>
+    <string name="textView_charLocation">Location</string>
+    <string name="textView_charAppearances">Appeared in Episodes:</string>
+    <string name="textView_locName">Temp Location Name</string>
+    <string name="textView_locType">Type: </string>
+    <string name="textView_locDimension">Dimension: </string>
+    <string name="textView_epName">S00E00: Title</string>
+    <string name="textView_epAirDate">Aired on: </string>
+    <string name="textView_epCharInfo">Characters in this Episode:</string>
+    <string name="button_epMoreInfo">More Information</string>
+    <string name="imageView_mainLogo">imageView_mainLogo</string>
+    <string name="button_mainChar">Character</string>
+    <string name="button_mainEp">Episode</string>
+    <string name="button_mainLoc">Location</string>
+    <string name="channel_name">my_channel</string>
+    <string name="channel_description">This is my channel</string>
+
+</resources>
